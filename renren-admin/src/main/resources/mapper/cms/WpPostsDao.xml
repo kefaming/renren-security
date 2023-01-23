@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.cms.dao.WpPostsDao">
+
+    <resultMap type="io.renren.modules.cms.entity.WpPostsEntity" id="wpPostsMap">
+        <result property="id" column="ID"/>
+        <result property="postAuthor" column="post_author"/>
+        <result property="postDate" column="post_date"/>
+        <result property="postDateGmt" column="post_date_gmt"/>
+        <result property="postContent" column="post_content"/>
+        <result property="postTitle" column="post_title"/>
+        <result property="postExcerpt" column="post_excerpt"/>
+        <result property="postStatus" column="post_status"/>
+        <result property="commentStatus" column="comment_status"/>
+        <result property="pingStatus" column="ping_status"/>
+        <result property="postPassword" column="post_password"/>
+        <result property="postName" column="post_name"/>
+        <result property="toPing" column="to_ping"/>
+        <result property="pinged" column="pinged"/>
+        <result property="postModified" column="post_modified"/>
+        <result property="postModifiedGmt" column="post_modified_gmt"/>
+        <result property="postContentFiltered" column="post_content_filtered"/>
+        <result property="postParent" column="post_parent"/>
+        <result property="guid" column="guid"/>
+        <result property="menuOrder" column="menu_order"/>
+        <result property="postType" column="post_type"/>
+        <result property="postMimeType" column="post_mime_type"/>
+        <result property="commentCount" column="comment_count"/>
+    </resultMap>
+
+
+</mapper>
